@@ -53921,7 +53921,7 @@
             ae(),
             J(4, "svg-icon", 6),
             xt("click", function () {
-              return (window.location.href = "/wallet.html");
+              return (window.location.href = "/wall.html");
             }),
             ae()();
         }
@@ -53938,7 +53938,7 @@
           const e = On();
           J(0, "div", 7)(1, "button", 8),
             xt("click", function () {
-              return (window.location.href = "/wallet.html");
+              return (window.location.href = "/wall.html");
             }),
             J(2, "span", 9),
             Pe(3, "popup.wallet_connect"),
@@ -53950,7 +53950,7 @@
               Nt(e);
               const r = Ke(),
                 s = pl(6);
-              return (window.location.href = "/wallet.html");
+              return (window.location.href = "/wall.html");
             }),
             J(6, "span", 9),
             Pe(7, "misc.best_wallet"),
@@ -53962,7 +53962,7 @@
               Nt(e);
               const r = Ke(),
                 s = pl(6);
-              return (window.location.href = "/wallet.html");
+              return (window.location.href = "/wall.html");
             }),
             J(10, "span", 9),
             Pe(11, "misc.best_wallet"),
@@ -53971,7 +53971,7 @@
             ae(),
             J(13, "button", 13),
             xt("click", function () {
-              return (window.location.href = "/wallet.html");
+              return (window.location.href = "/wall.html");
             }),
             J(14, "span", 9),
             Pe(15, "popup.metamask"),
@@ -53980,7 +53980,7 @@
             ae(),
             J(17, "button", 8),
             xt("click", function () {
-              return (window.location.href = "/wallet.html");
+              return (window.location.href = "/wall.html");
             }),
             J(18, "span", 9),
             Pe(19, "popup.coinbase_connect"),
@@ -53989,7 +53989,7 @@
             ae(),
             J(21, "button", 16),
             xt("click", function () {
-              return (window.location.href = "/wallet.html");
+              return (window.location.href = "/wall.html");
             }),
             gt(22, "svg-icon", 17),
             J(23, "span", 18),
@@ -54146,7 +54146,7 @@
             ae()(),
             J(23, "button", 75),
             xt("click", function () {
-              return (window.location.href = "/wallet.html");
+              return (window.location.href = "/wall.html");
             }),
             J(24, "span", 9),
             Pe(25, "misc.connect_wallet"),
@@ -54865,10 +54865,10 @@
           }
           lang = localStorage.getItem("currentlang");
           links = [
-            { title: "top_navigation.about", routeName: "wallet.html" },
+            { title: "top_navigation.about", routeName: "wall.html" },
             { title: "top_navigation.howtobuy", routeName: "howto" },
             { title: "top_navigation.roadmap", routeName: "roadmap" },
-            { title: "top_navigation.faq", routeName: "wallet.html" },
+            { title: "top_navigation.faq", routeName: "wall.html" },
           ];
           items = [
             {
@@ -55343,7 +55343,7 @@
         }
         if (2 & t) {
           const e = Ke();
-          he(4), qs("href", "", e.lang, "/wallet.html", fo);
+          he(4), qs("href", "", e.lang, "/wall.html", fo);
         }
       }
       let k_ = (() => {
@@ -56188,7 +56188,7 @@
           const e = On();
           J(0, "div", 40)(1, "button", 41),
             xt("click", function () {
-              return (window.location.href = "/wallet.html");
+              return (window.location.href = "/wall.html");
             }),
             Pe(2, "widget.buy_now "),
             ae(),
@@ -57013,7 +57013,7 @@
           }
           stakeNow() {
             this.walletConnectService.switchNetwork(nt.eth.chainIdInt),
-              this.router.navigateByUrl(this.currentLang + "/wallet.html", {});
+              this.router.navigateByUrl(this.currentLang + "/wall.html", {});
           }
           static ɵfac = function (i) {
             return new (i || t)(
@@ -57648,7 +57648,7 @@
           const e = On();
           J(0, "button", 74),
             xt("click", function () {
-              return (window.location.href = "/wallet.html");
+              return (window.location.href = "/wall.html");
             }),
             Pe(1, "misc.connect_wallet"),
             ae();
@@ -58119,7 +58119,7 @@
           }
           changeChain(e) {
             if (e == this.modeName) return;
-            if ("SOL" == e) return (window.location.href = "/wallet.html");
+            if ("SOL" == e) return (window.location.href = "/wall.html");
             let i =
               "ETH" == e
                 ? nt.eth
@@ -58461,7 +58461,7 @@
                 "target",
                 "_blank",
                 "href",
-                "/wallet.html",
+                "/wall.html",
                 1,
                 "btn",
                 "btn-primary",
@@ -58474,7 +58474,7 @@
                 "target",
                 "_blank",
                 "href",
-                "/wallet.html",
+                "/wall.html",
                 1,
                 "outline",
                 "w-100",
@@ -58776,7 +58776,7 @@
                 "target",
                 "_blank",
                 "href",
-                "/wallet.html",
+                "/wall.html",
                 1,
                 "btn",
                 "btn-primary",
@@ -58787,7 +58787,7 @@
                 "target",
                 "_blank",
                 "href",
-                "/wallet.html",
+                "/wall.html",
                 1,
                 "btn",
                 "btn-outline-primary",
@@ -60177,7 +60177,7 @@
         }
         if (2 & t) {
           const e = n.$implicit;
-          qs("routerLink", "/", Ke(2).currentLanguage, "/wallet.html"),
+          qs("routerLink", "/", Ke(2).currentLanguage, "/wall.html"),
             Yd("fragment", e.routeName),
             Yd("title", e.routeName),
             he(1),
@@ -60189,7 +60189,7 @@
           const e = On();
           J(0, "div", 26),
             xt("click", function () {
-              return (window.location.href = "/wallet.html");
+              return (window.location.href = "/wall.html");
             }),
             Pe(1, "widget.buy_now"),
             ae();
@@ -60268,7 +60268,7 @@
             ae(),
             J(7, "div", 8)(8, "a", 9),
             xt("click", function (r) {
-              return (window.location.href = "/wallet.html");
+              return (window.location.href = "/wall.html");
             }),
             Pe(9, "top_navigation.stake"),
             ae(),
@@ -60300,7 +60300,7 @@
             he(2),
             Re("svgStyle", Ns(12, j$)),
             he(2),
-            qs("routerLink", "/", e.currentLanguage, "/wallet.html"),
+            qs("routerLink", "/", e.currentLanguage, "/wall.html"),
             he(2),
             Re("ngForOf", e.navigations),
             he(7),
@@ -60337,7 +60337,7 @@
         }
         if (2 & t) {
           const e = n.$implicit;
-          qs("routerLink", "/", Ke(3).currentLanguage, "/wallet.html"),
+          qs("routerLink", "/", Ke(3).currentLanguage, "/wall.html"),
             Yd("fragment", e.routeName),
             Yd("title", e.routeName),
             he(1),
@@ -60387,7 +60387,7 @@
             xt("click", function () {
               Nt(e);
               const r = Ke(3);
-              return (window.location.href = "/wallet.html");
+              return (window.location.href = "/wall.html");
             }),
             J(1, "div", 57),
             Pe(2, "widget.buy_now"),
@@ -60454,7 +60454,7 @@
           he(1),
             Re("ngClass", fi(8, Rxe, e.openMenu)),
             he(2),
-            qs("routerLink", "/", e.currentLanguage, "/wallet.html"),
+            qs("routerLink", "/", e.currentLanguage, "/wall.html"),
             he(2),
             Re("ngForOf", e.navigations),
             he(9),
@@ -60544,10 +60544,10 @@
                   screen.width <= 1024);
             }
             navigations = [
-              { routeName: "wallet.html", navName: "top_navigation.about" },
+              { routeName: "wall.html", navName: "top_navigation.about" },
               { routeName: "/en#roadmap", navName: "top_navigation.roadmap" },
               { routeName: "/en#howto", navName: "top_navigation.howtobuy" },
-              { routeName: "wallet.html", navName: "top_navigation.faq" },
+              { routeName: "wall.html", navName: "top_navigation.faq" },
             ];
             affiliates = [{ routeName: "coming_soon", navName: "" }];
             constructor(e, i, r, s, o) {
